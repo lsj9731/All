@@ -10,4 +10,4 @@ Pytorch
 - Pytorch 기반 모델 코드 모음
 
 Algorithm
-- 하루 
+- 하루 문제 풀이
