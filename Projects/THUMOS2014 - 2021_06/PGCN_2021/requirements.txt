@@ -1,7 +1,0 @@
-torchvision
-numpy
-scikit-learn
-terminaltables
-pandas
-scipy
-ruamel.yaml
