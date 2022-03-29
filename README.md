@@ -1,13 +1,10 @@
 # All
 
 Study
-- 코드 작성 모음
+- 개인 공부 (딥러닝 강의, 도서 등)
 
-Tensorflow
-- tf1 & tf2 기반 모델 코드 모음
-
-Pytorch
-- Pytorch 기반 모델 코드 모음
+Projects
+- 개인 프로젝트
 
 Algorithm
 - 하루 문제 풀이
