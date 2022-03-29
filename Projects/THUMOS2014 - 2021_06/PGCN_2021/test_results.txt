@@ -1,0 +1,4949 @@
+-> training rgb data
+initiating evaluation of detection results ['result']
+model epoch 30 loss: 1.6963918731326149
+File parsed. Time:5.62
+Dict constructed. Time:29.04
+initiating evaluation of detection results ['result']
+Merge detection scores from 1 sources...
+Done.
+File parsed. Time:5.71
+Dict constructed. Time:24.23
+Preprocessing detections...
+Done.
+Performing nms...
+NMS Done.
+Performing location regression...
+Regression Done.
+Calling mean AP calculator from toolkit with 32 workers...
+Evaluation done.
+
+
++Detection Performance on thumos14------+--------+--------+--------+--------+--------+--------+---------+
+| IoU thresh | 0.10   | 0.20   | 0.30   | 0.40   | 0.50   | 0.60   | 0.70   | 0.80   | 0.90   | Average |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+| mean AP    | 0.6083 | 0.5858 | 0.5477 | 0.4854 | 0.3962 | 0.2806 | 0.1601 | 0.0609 | 0.0091 | 0.3482  |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+initiating evaluation of detection results ['result']
+model epoch 5 loss: 1.8735454968043737
+File parsed. Time:4.73
+Dict constructed. Time:24.55
+initiating evaluation of detection results ['result']
+model epoch 5 loss: 1.8735454968043737
+File parsed. Time:4.84
+Dict constructed. Time:2.64
+model epoch 5 loss: 1.8735454968043737
+File parsed. Time:4.94
+Dict constructed. Time:2.68
+initiating evaluation of detection results ['result']
+model epoch 5 loss: 1.8735454968043737
+File parsed. Time:4.91
+Dict constructed. Time:3.01
+initiating evaluation of detection results ['i3d_result']
+model epoch 5 loss: 1.8735454968043737
+File parsed. Time:4.87
+Dict constructed. Time:2.98
+initiating evaluation of detection results ['i3d_result']
+model epoch 5 loss: 1.8735454968043737
+File parsed. Time:4.95
+Dict constructed. Time:2.72
+get i3d_results
+initiating evaluation of detection results ['i3d_result']
+Merge detection scores from 1 sources...
+Done.
+File parsed. Time:4.61
+Dict constructed. Time:25.54
+Preprocessing detections...
+Done.
+Performing nms...
+NMS Done.
+Performing location regression...
+Regression Done.
+Calling mean AP calculator from toolkit with 32 workers...
+Evaluation done.
+
+
++Detection Performance on thumos14------+--------+--------+--------+--------+--------+--------+---------+
+| IoU thresh | 0.10   | 0.20   | 0.30   | 0.40   | 0.50   | 0.60   | 0.70   | 0.80   | 0.90   | Average |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+| mean AP    | 0.5675 | 0.5409 | 0.5061 | 0.4384 | 0.3398 | 0.2269 | 0.1225 | 0.0396 | 0.0034 | 0.3095  |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+model epoch 35 loss: 1.7044900440034412
+File parsed. Time:2.56
+Dict constructed. Time:12.83
+get i3d_results
+initiating evaluation of detection results ['i3d_result']
+Merge detection scores from 1 sources...
+Done.
+File parsed. Time:2.67
+Dict constructed. Time:15.38
+Preprocessing detections...
+Done.
+Performing nms...
+NMS Done.
+Performing location regression...
+Regression Done.
+Calling mean AP calculator from toolkit with 32 workers...
+Evaluation done.
+
+
++Detection Performance on thumos14------+--------+--------+--------+--------+--------+--------+---------+
+| IoU thresh | 0.10   | 0.20   | 0.30   | 0.40   | 0.50   | 0.60   | 0.70   | 0.80   | 0.90   | Average |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+| mean AP    | 0.6324 | 0.6108 | 0.5625 | 0.4964 | 0.4048 | 0.2730 | 0.1423 | 0.0515 | 0.0068 | 0.3534  |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+model epoch 5 loss: 3.2294048059554328
+File parsed. Time:2.62
+Dict constructed. Time:13.03
+get i3d_results
+initiating evaluation of detection results ['i3d_result']
+Merge detection scores from 1 sources...
+Done.
+File parsed. Time:2.70
+Dict constructed. Time:16.11
+Preprocessing detections...
+Done.
+Performing nms...
+NMS Done.
+Performing location regression...
+Regression Done.
+Calling mean AP calculator from toolkit with 32 workers...
+Evaluation done.
+
+
++Detection Performance on thumos14------+--------+--------+--------+--------+--------+--------+---------+
+| IoU thresh | 0.10   | 0.20   | 0.30   | 0.40   | 0.50   | 0.60   | 0.70   | 0.80   | 0.90   | Average |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+| mean AP    | 0.0716 | 0.0628 | 0.0555 | 0.0464 | 0.0341 | 0.0189 | 0.0077 | 0.0023 | 0.0004 | 0.0333  |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+initiating evaluation of detection results ['i3d_result']
+initiating evaluation of detection results ['i3d_result']
+initiating evaluation of detection results ['overlap_result']
+initiating evaluation of detection results ['overlap_result']
+initiating evaluation of detection results ['/disk1/image-processing/PGCN/results/overlap_result']
+model epoch 10 loss: 2.5078847317468553
+File parsed. Time:2.61
+Dict constructed. Time:12.92
+get i3d_results
+initiating evaluation of detection results ['result']
+Merge detection scores from 1 sources...
+Done.
+File parsed. Time:2.65
+Dict constructed. Time:113.24
+Preprocessing detections...
+Done.
+Performing nms...
+NMS Done.
+Performing location regression...
+Regression Done.
+Calling mean AP calculator from toolkit with 32 workers...
+Evaluation done.
+
+
++Detection Performance on thumos14------+--------+--------+--------+--------+--------+--------+---------+
+| IoU thresh | 0.10   | 0.20   | 0.30   | 0.40   | 0.50   | 0.60   | 0.70   | 0.80   | 0.90   | Average |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+| mean AP    | 0.2938 | 0.2739 | 0.2447 | 0.1992 | 0.1373 | 0.0715 | 0.0325 | 0.0085 | 0.0011 | 0.1403  |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+model epoch 10 loss: 2.465985157376244
+File parsed. Time:2.59
+Dict constructed. Time:12.85
+get i3d_results
+initiating evaluation of detection results ['result']
+Merge detection scores from 1 sources...
+Done.
+File parsed. Time:2.60
+Dict constructed. Time:15.86
+Preprocessing detections...
+Done.
+Performing nms...
+NMS Done.
+Performing location regression...
+Regression Done.
+Calling mean AP calculator from toolkit with 32 workers...
+Evaluation done.
+
+
++Detection Performance on thumos14------+--------+--------+--------+--------+--------+--------+---------+
+| IoU thresh | 0.10   | 0.20   | 0.30   | 0.40   | 0.50   | 0.60   | 0.70   | 0.80   | 0.90   | Average |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+| mean AP    | 0.3757 | 0.3496 | 0.3023 | 0.2365 | 0.1566 | 0.0885 | 0.0352 | 0.0109 | 0.0008 | 0.1729  |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+model epoch 10 loss: 1.933879938579741
+File parsed. Time:2.60
+Dict constructed. Time:14.11
+get i3d_results
+initiating evaluation of detection results ['result']
+Merge detection scores from 1 sources...
+Done.
+File parsed. Time:2.71
+Dict constructed. Time:16.12
+Preprocessing detections...
+Done.
+Performing nms...
+NMS Done.
+Performing location regression...
+Regression Done.
+Calling mean AP calculator from toolkit with 32 workers...
+Evaluation done.
+
+
++Detection Performance on thumos14------+--------+--------+--------+--------+--------+--------+---------+
+| IoU thresh | 0.10   | 0.20   | 0.30   | 0.40   | 0.50   | 0.60   | 0.70   | 0.80   | 0.90   | Average |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+| mean AP    | 0.5595 | 0.5339 | 0.4921 | 0.4286 | 0.3260 | 0.2125 | 0.1093 | 0.0384 | 0.0039 | 0.3005  |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+model epoch 10 loss: 2.4090365477970668
+File parsed. Time:2.60
+Dict constructed. Time:13.37
+get i3d_results
+initiating evaluation of detection results ['result']
+Merge detection scores from 1 sources...
+Done.
+File parsed. Time:2.69
+Dict constructed. Time:15.89
+Preprocessing detections...
+Done.
+Performing nms...
+NMS Done.
+Performing location regression...
+Regression Done.
+Calling mean AP calculator from toolkit with 32 workers...
+Evaluation done.
+
+
++Detection Performance on thumos14------+--------+--------+--------+--------+--------+--------+---------+
+| IoU thresh | 0.10   | 0.20   | 0.30   | 0.40   | 0.50   | 0.60   | 0.70   | 0.80   | 0.90   | Average |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+| mean AP    | 0.4066 | 0.3774 | 0.3264 | 0.2575 | 0.1760 | 0.0907 | 0.0387 | 0.0109 | 0.0008 | 0.1872  |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+model epoch 15 loss: 1.7831199691409156
+File parsed. Time:2.59
+Dict constructed. Time:13.88
+get i3d_results
+initiating evaluation of detection results ['result']
+Merge detection scores from 1 sources...
+Done.
+File parsed. Time:2.65
+Dict constructed. Time:15.81
+Preprocessing detections...
+Done.
+Performing nms...
+NMS Done.
+Performing location regression...
+Regression Done.
+Calling mean AP calculator from toolkit with 32 workers...
+Evaluation done.
+
+
++Detection Performance on thumos14------+--------+--------+--------+--------+--------+--------+---------+
+| IoU thresh | 0.10   | 0.20   | 0.30   | 0.40   | 0.50   | 0.60   | 0.70   | 0.80   | 0.90   | Average |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+| mean AP    | 0.5982 | 0.5750 | 0.5336 | 0.4732 | 0.3787 | 0.2702 | 0.1565 | 0.0546 | 0.0070 | 0.3386  |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+model epoch 10 loss: 1.8557111002150035
+File parsed. Time:2.60
+Dict constructed. Time:12.99
+get i3d_results
+initiating evaluation of detection results ['result']
+Merge detection scores from 1 sources...
+Done.
+File parsed. Time:2.67
+Dict constructed. Time:16.87
+Preprocessing detections...
+Done.
+Performing nms...
+NMS Done.
+Performing location regression...
+Regression Done.
+Calling mean AP calculator from toolkit with 32 workers...
+Evaluation done.
+
+
++Detection Performance on thumos14------+--------+--------+--------+--------+--------+--------+---------+
+| IoU thresh | 0.10   | 0.20   | 0.30   | 0.40   | 0.50   | 0.60   | 0.70   | 0.80   | 0.90   | Average |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+| mean AP    | 0.5904 | 0.5698 | 0.5327 | 0.4700 | 0.3773 | 0.2611 | 0.1467 | 0.0530 | 0.0058 | 0.3341  |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+model epoch 20 loss: 1.7683019694827853
+File parsed. Time:2.67
+Dict constructed. Time:12.90
+get i3d_results
+initiating evaluation of detection results ['result']
+Merge detection scores from 1 sources...
+Done.
+File parsed. Time:2.74
+Dict constructed. Time:16.54
+Preprocessing detections...
+Done.
+Performing nms...
+NMS Done.
+Performing location regression...
+Regression Done.
+Calling mean AP calculator from toolkit with 32 workers...
+Evaluation done.
+
+
++Detection Performance on thumos14------+--------+--------+--------+--------+--------+--------+---------+
+| IoU thresh | 0.10   | 0.20   | 0.30   | 0.40   | 0.50   | 0.60   | 0.70   | 0.80   | 0.90   | Average |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+| mean AP    | 0.6143 | 0.5905 | 0.5509 | 0.4909 | 0.3893 | 0.2696 | 0.1510 | 0.0547 | 0.0069 | 0.3464  |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+model epoch 15 loss: 2.0729987519127984
+File parsed. Time:2.59
+Dict constructed. Time:12.75
+get i3d_results
+initiating evaluation of detection results ['result']
+Merge detection scores from 1 sources...
+Done.
+File parsed. Time:2.61
+Dict constructed. Time:15.38
+Preprocessing detections...
+Done.
+Performing nms...
+NMS Done.
+Performing location regression...
+Regression Done.
+Calling mean AP calculator from toolkit with 32 workers...
+Evaluation done.
+
+
++Detection Performance on thumos14------+--------+--------+--------+--------+--------+--------+---------+
+| IoU thresh | 0.10   | 0.20   | 0.30   | 0.40   | 0.50   | 0.60   | 0.70   | 0.80   | 0.90   | Average |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+| mean AP    | 0.5231 | 0.5106 | 0.4756 | 0.4312 | 0.3578 | 0.2446 | 0.1432 | 0.0502 | 0.0055 | 0.3047  |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+model epoch 15 loss: 2.1537884961991085
+File parsed. Time:2.60
+Dict constructed. Time:13.19
+get i3d_results
+initiating evaluation of detection results ['result']
+Merge detection scores from 1 sources...
+Done.
+File parsed. Time:2.73
+Dict constructed. Time:15.95
+Preprocessing detections...
+Done.
+Performing nms...
+NMS Done.
+Performing location regression...
+Regression Done.
+Calling mean AP calculator from toolkit with 32 workers...
+Evaluation done.
+
+
++Detection Performance on thumos14------+--------+--------+--------+--------+--------+--------+---------+
+| IoU thresh | 0.10   | 0.20   | 0.30   | 0.40   | 0.50   | 0.60   | 0.70   | 0.80   | 0.90   | Average |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+| mean AP    | 0.5098 | 0.4946 | 0.4557 | 0.4113 | 0.3435 | 0.2520 | 0.1459 | 0.0570 | 0.0088 | 0.2976  |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+model epoch 15 loss: 1.6285625764301845
+File parsed. Time:2.64
+Dict constructed. Time:13.11
+get i3d_results
+initiating evaluation of detection results ['result']
+Merge detection scores from 1 sources...
+Done.
+File parsed. Time:2.72
+Dict constructed. Time:18.29
+Preprocessing detections...
+Done.
+Performing nms...
+NMS Done.
+Performing location regression...
+Regression Done.
+Calling mean AP calculator from toolkit with 32 workers...
+Evaluation done.
+
+
++Detection Performance on thumos14------+--------+--------+--------+--------+--------+--------+---------+
+| IoU thresh | 0.10   | 0.20   | 0.30   | 0.40   | 0.50   | 0.60   | 0.70   | 0.80   | 0.90   | Average |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+| mean AP    | 0.6191 | 0.6037 | 0.5628 | 0.5175 | 0.4345 | 0.3117 | 0.1809 | 0.0721 | 0.0086 | 0.3679  |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+model epoch 15 loss: 1.5345574106488908
+File parsed. Time:2.60
+Dict constructed. Time:12.80
+get i3d_results
+initiating evaluation of detection results ['result']
+Merge detection scores from 1 sources...
+Done.
+File parsed. Time:2.73
+Dict constructed. Time:16.56
+Preprocessing detections...
+Done.
+Performing nms...
+NMS Done.
+Performing location regression...
+Regression Done.
+Calling mean AP calculator from toolkit with 32 workers...
+Evaluation done.
+
+
++Detection Performance on thumos14------+--------+--------+--------+--------+--------+--------+---------+
+| IoU thresh | 0.10   | 0.20   | 0.30   | 0.40   | 0.50   | 0.60   | 0.70   | 0.80   | 0.90   | Average |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+| mean AP    | 0.6304 | 0.6139 | 0.5745 | 0.5145 | 0.4404 | 0.3156 | 0.1762 | 0.0710 | 0.0061 | 0.3714  |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+model epoch 20 loss: 1.5453646705264137
+File parsed. Time:2.58
+Dict constructed. Time:12.90
+get i3d_results
+initiating evaluation of detection results ['result']
+Merge detection scores from 1 sources...
+Done.
+File parsed. Time:2.74
+Dict constructed. Time:16.01
+Preprocessing detections...
+Done.
+Performing nms...
+NMS Done.
+Performing location regression...
+Regression Done.
+Calling mean AP calculator from toolkit with 32 workers...
+Evaluation done.
+
+
++Detection Performance on thumos14------+--------+--------+--------+--------+--------+--------+---------+
+| IoU thresh | 0.10   | 0.20   | 0.30   | 0.40   | 0.50   | 0.60   | 0.70   | 0.80   | 0.90   | Average |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+| mean AP    | 0.6333 | 0.6141 | 0.5700 | 0.5197 | 0.4412 | 0.3169 | 0.1835 | 0.0739 | 0.0095 | 0.3735  |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+model epoch 5 loss: 1.639870225815546
+File parsed. Time:3.18
+Dict constructed. Time:16.52
+get i3d_results
+initiating evaluation of detection results ['result']
+Merge detection scores from 1 sources...
+Done.
+File parsed. Time:2.75
+Dict constructed. Time:17.26
+Preprocessing detections...
+Done.
+Performing nms...
+NMS Done.
+Performing location regression...
+Regression Done.
+Calling mean AP calculator from toolkit with 32 workers...
+Evaluation done.
+
+
++Detection Performance on thumos14------+--------+--------+--------+--------+--------+--------+---------+
+| IoU thresh | 0.10   | 0.20   | 0.30   | 0.40   | 0.50   | 0.60   | 0.70   | 0.80   | 0.90   | Average |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+| mean AP    | 0.6201 | 0.5980 | 0.5518 | 0.4918 | 0.3903 | 0.2696 | 0.1376 | 0.0451 | 0.0057 | 0.3455  |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+model epoch 20 loss: 1.5155919495083037
+File parsed. Time:2.61
+Dict constructed. Time:13.51
+get i3d_results
+initiating evaluation of detection results ['result']
+Merge detection scores from 1 sources...
+Done.
+File parsed. Time:2.68
+Dict constructed. Time:16.54
+Preprocessing detections...
+Done.
+Performing nms...
+NMS Done.
+Performing location regression...
+Regression Done.
+Calling mean AP calculator from toolkit with 32 workers...
+Evaluation done.
+
+
++Detection Performance on thumos14------+--------+--------+--------+--------+--------+--------+---------+
+| IoU thresh | 0.10   | 0.20   | 0.30   | 0.40   | 0.50   | 0.60   | 0.70   | 0.80   | 0.90   | Average |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+| mean AP    | 0.6312 | 0.6128 | 0.5714 | 0.5171 | 0.4315 | 0.3090 | 0.1762 | 0.0685 | 0.0074 | 0.3695  |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+model epoch 5 loss: 1.549202469417027
+File parsed. Time:2.64
+Dict constructed. Time:12.86
+get i3d_results
+initiating evaluation of detection results ['result']
+Merge detection scores from 1 sources...
+Done.
+File parsed. Time:2.67
+Dict constructed. Time:16.62
+Preprocessing detections...
+Done.
+Performing nms...
+NMS Done.
+Performing location regression...
+Regression Done.
+Calling mean AP calculator from toolkit with 32 workers...
+Evaluation done.
+
+
++Detection Performance on thumos14------+--------+--------+--------+--------+--------+--------+---------+
+| IoU thresh | 0.10   | 0.20   | 0.30   | 0.40   | 0.50   | 0.60   | 0.70   | 0.80   | 0.90   | Average |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+| mean AP    | 0.6252 | 0.6048 | 0.5564 | 0.5031 | 0.4215 | 0.3115 | 0.1652 | 0.0649 | 0.0080 | 0.3623  |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+model epoch 5 loss: 1.3781767152604603
+File parsed. Time:2.34
+initiating evaluation of detection results ['result']
+model epoch 5 loss: 1.3781767152604603
+File parsed. Time:2.33
+initiating evaluation of detection results ['result']
+model epoch 5 loss: 1.3781767152604603
+File parsed. Time:2.28
+initiating evaluation of detection results ['bsn_result']
+model epoch 5 loss: 1.3781767152604603
+File parsed. Time:2.31
+initiating evaluation of detection results ['bsn_result']
+model epoch 5 loss: 1.3781767152604603
+File parsed. Time:2.36
+initiating evaluation of detection results ['bsn_result']
+model epoch 5 loss: 1.3781767152604603
+File parsed. Time:2.33
+Get parse file end
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (759, 2)
+--------------------------------------------------
+
+Prop array shape :  (1522, 2)
+--------------------------------------------------
+
+Prop array shape :  (46, 2)
+--------------------------------------------------
+
+Prop array shape :  (755, 2)
+--------------------------------------------------
+
+Prop array shape :  (679, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (741, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (630, 2)
+--------------------------------------------------
+
+Prop array shape :  (409, 2)
+--------------------------------------------------
+
+Prop array shape :  (748, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (760, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (379, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (416, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (608, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (1574, 2)
+--------------------------------------------------
+
+Prop array shape :  (540, 2)
+--------------------------------------------------
+
+Prop array shape :  (39, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (790, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (964, 2)
+--------------------------------------------------
+
+Prop array shape :  (762, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (365, 2)
+--------------------------------------------------
+
+Prop array shape :  (792, 2)
+--------------------------------------------------
+
+Prop array shape :  (716, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (0,)
+--------------------------------------------------
+
+initiating evaluation of detection results ['bsn_result']
+model epoch 20 loss: 1.5959683622632708
+File parsed. Time:2.90
+Get parse file end
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (478, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (355, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (789, 2)
+--------------------------------------------------
+
+Prop array shape :  (796, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (416, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (273, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (376, 2)
+--------------------------------------------------
+
+Prop array shape :  (952, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (191, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (662, 2)
+--------------------------------------------------
+
+Prop array shape :  (373, 2)
+--------------------------------------------------
+
+Prop array shape :  (1222, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (608, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (526, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (703, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (170, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (782, 2)
+--------------------------------------------------
+
+Prop array shape :  (382, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1548, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (554, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (690, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (596, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (646, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1394, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (382, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (383, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (428, 2)
+--------------------------------------------------
+
+Prop array shape :  (702, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (808, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (310, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Dict constructed. Time:14.54
+get i3d_results
+initiating evaluation of detection results ['bsn_result']
+Merge detection scores from 1 sources...
+Done.
+File parsed. Time:2.97
+Get parse file end
+Dict constructed. Time:14.79
+Preprocessing detections...
+Done.
+Performing nms...
+NMS Done.
+Performing location regression...
+Regression Done.
+Calling mean AP calculator from toolkit with 32 workers...
+Evaluation done.
+
+
++Detection Performance on thumos14------+--------+--------+--------+--------+--------+--------+---------+
+| IoU thresh | 0.10   | 0.20   | 0.30   | 0.40   | 0.50   | 0.60   | 0.70   | 0.80   | 0.90   | Average |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+| mean AP    | 0.5779 | 0.5560 | 0.5224 | 0.4627 | 0.3798 | 0.2649 | 0.1530 | 0.0587 | 0.0068 | 0.3314  |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+model epoch 20 loss: 1.5039966923849923
+File parsed. Time:2.90
+Get parse file end
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (478, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (355, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (789, 2)
+--------------------------------------------------
+
+Prop array shape :  (796, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (416, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (273, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (376, 2)
+--------------------------------------------------
+
+Prop array shape :  (952, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (191, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (662, 2)
+--------------------------------------------------
+
+Prop array shape :  (373, 2)
+--------------------------------------------------
+
+Prop array shape :  (1222, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (608, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (526, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (703, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (170, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (782, 2)
+--------------------------------------------------
+
+Prop array shape :  (382, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1548, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (554, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (690, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (596, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (646, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1394, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (382, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (383, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (428, 2)
+--------------------------------------------------
+
+Prop array shape :  (702, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (808, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (310, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Dict constructed. Time:14.30
+get i3d_results
+initiating evaluation of detection results ['bsn_result']
+Merge detection scores from 1 sources...
+Done.
+File parsed. Time:3.05
+Get parse file end
+Dict constructed. Time:13.92
+Preprocessing detections...
+Done.
+Performing nms...
+NMS Done.
+Performing location regression...
+Regression Done.
+Calling mean AP calculator from toolkit with 32 workers...
+Evaluation done.
+
+
++Detection Performance on thumos14------+--------+--------+--------+--------+--------+--------+---------+
+| IoU thresh | 0.10   | 0.20   | 0.30   | 0.40   | 0.50   | 0.60   | 0.70   | 0.80   | 0.90   | Average |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+| mean AP    | 0.6486 | 0.6350 | 0.5986 | 0.5437 | 0.4607 | 0.3382 | 0.2050 | 0.0842 | 0.0139 | 0.3920  |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+model epoch 20 loss: 1.5039966923849923
+File parsed. Time:2.66
+Get parse file end
+Dict constructed. Time:2.67
+model epoch 20 loss: 1.5039966923849923
+File parsed. Time:2.68
+Get parse file end
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (676, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (434, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (694, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (272, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (795, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (609, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (249, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (437, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (431, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (455, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (542, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (293, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (787, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (675, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (434, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (786, 2)
+--------------------------------------------------
+
+Prop array shape :  (405, 2)
+--------------------------------------------------
+
+Prop array shape :  (765, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (352, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (233, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (635, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (490, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (719, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (361, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (566, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (660, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Dict constructed. Time:13.32
+initiating evaluation of detection results ['bsn_result']
+Merge detection scores from 1 sources...
+Done.
+File parsed. Time:2.68
+Get parse file end
+Dict constructed. Time:14.56
+Preprocessing detections...
+Done.
+Performing nms...
+NMS Done.
+Performing location regression...
+Regression Done.
+Calling mean AP calculator from toolkit with 32 workers...
+Evaluation done.
+
+
++Detection Performance on thumos14------+--------+--------+--------+--------+--------+--------+---------+
+| IoU thresh | 0.10   | 0.20   | 0.30   | 0.40   | 0.50   | 0.60   | 0.70   | 0.80   | 0.90   | Average |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+| mean AP    | 0.6487 | 0.6308 | 0.5974 | 0.5436 | 0.4581 | 0.3392 | 0.2053 | 0.0866 | 0.0127 | 0.3914  |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+model epoch 5 loss: 1.7093962328774588
+File parsed. Time:2.92
+Get parse file end
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (478, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (355, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (789, 2)
+--------------------------------------------------
+
+Prop array shape :  (796, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (416, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (273, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (376, 2)
+--------------------------------------------------
+
+Prop array shape :  (952, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (191, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (662, 2)
+--------------------------------------------------
+
+Prop array shape :  (373, 2)
+--------------------------------------------------
+
+Prop array shape :  (1222, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (608, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (526, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (703, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (170, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (782, 2)
+--------------------------------------------------
+
+Prop array shape :  (382, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1548, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (554, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (690, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (596, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (646, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1394, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (382, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (383, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (428, 2)
+--------------------------------------------------
+
+Prop array shape :  (702, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (808, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (310, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Dict constructed. Time:14.55
+get i3d_results
+initiating evaluation of detection results ['bsn_result']
+Merge detection scores from 1 sources...
+Done.
+File parsed. Time:2.97
+Get parse file end
+Dict constructed. Time:14.40
+Preprocessing detections...
+Done.
+Performing nms...
+NMS Done.
+Performing location regression...
+Regression Done.
+Calling mean AP calculator from toolkit with 32 workers...
+Evaluation done.
+
+
++Detection Performance on thumos14------+--------+--------+--------+--------+--------+--------+---------+
+| IoU thresh | 0.10   | 0.20   | 0.30   | 0.40   | 0.50   | 0.60   | 0.70   | 0.80   | 0.90   | Average |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+| mean AP    | 0.5679 | 0.5461 | 0.5115 | 0.4503 | 0.3485 | 0.2306 | 0.1223 | 0.0361 | 0.0036 | 0.3130  |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+model epoch 5 loss: 1.4360700652712868
+File parsed. Time:2.85
+Get parse file end
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (478, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (355, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (789, 2)
+--------------------------------------------------
+
+Prop array shape :  (796, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (416, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (273, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (376, 2)
+--------------------------------------------------
+
+Prop array shape :  (952, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (191, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (662, 2)
+--------------------------------------------------
+
+Prop array shape :  (373, 2)
+--------------------------------------------------
+
+Prop array shape :  (1222, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (608, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (526, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (703, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (170, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (782, 2)
+--------------------------------------------------
+
+Prop array shape :  (382, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1548, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (554, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (690, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (596, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (646, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1394, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (382, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (383, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (428, 2)
+--------------------------------------------------
+
+Prop array shape :  (702, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (808, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (310, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Dict constructed. Time:14.34
+get i3d_results
+initiating evaluation of detection results ['bsn_result']
+Merge detection scores from 1 sources...
+Done.
+File parsed. Time:2.99
+Get parse file end
+Dict constructed. Time:14.69
+Preprocessing detections...
+Done.
+Performing nms...
+NMS Done.
+Performing location regression...
+Regression Done.
+Calling mean AP calculator from toolkit with 32 workers...
+Evaluation done.
+
+
++Detection Performance on thumos14------+--------+--------+--------+--------+--------+--------+---------+
+| IoU thresh | 0.10   | 0.20   | 0.30   | 0.40   | 0.50   | 0.60   | 0.70   | 0.80   | 0.90   | Average |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+| mean AP    | 0.6143 | 0.5996 | 0.5575 | 0.5020 | 0.4054 | 0.2850 | 0.1628 | 0.0635 | 0.0086 | 0.3554  |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+model epoch 20 loss: 1.4450121198381696
+File parsed. Time:2.89
+Get parse file end
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (478, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (355, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (789, 2)
+--------------------------------------------------
+
+Prop array shape :  (796, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (416, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (273, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (376, 2)
+--------------------------------------------------
+
+Prop array shape :  (952, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (191, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (662, 2)
+--------------------------------------------------
+
+Prop array shape :  (373, 2)
+--------------------------------------------------
+
+Prop array shape :  (1222, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (608, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (526, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (703, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (170, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (782, 2)
+--------------------------------------------------
+
+Prop array shape :  (382, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1548, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (554, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (690, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (596, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (646, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1394, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (382, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (383, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (428, 2)
+--------------------------------------------------
+
+Prop array shape :  (702, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (808, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (310, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (1600, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Prop array shape :  (800, 2)
+--------------------------------------------------
+
+Dict constructed. Time:14.18
+get i3d_results
+initiating evaluation of detection results ['bsn_result']
+Merge detection scores from 1 sources...
+Done.
+File parsed. Time:2.96
+Get parse file end
+Dict constructed. Time:14.58
+Preprocessing detections...
+Done.
+Performing nms...
+NMS Done.
+Performing location regression...
+Regression Done.
+Calling mean AP calculator from toolkit with 32 workers...
+Evaluation done.
+
+
++Detection Performance on thumos14------+--------+--------+--------+--------+--------+--------+---------+
+| IoU thresh | 0.10   | 0.20   | 0.30   | 0.40   | 0.50   | 0.60   | 0.70   | 0.80   | 0.90   | Average |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+| mean AP    | 0.6226 | 0.6054 | 0.5697 | 0.5138 | 0.4363 | 0.3110 | 0.1776 | 0.0727 | 0.0099 | 0.3688  |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+model epoch 10 loss: 2.225363254547119
+initiating evaluation of detection results ['bsn_result']
+model epoch 10 loss: 2.225363254547119
+File parsed. Time:107.01
+Get parse file end
+Prop array shape :  (30000, 2)
+--------------------------------------------------
+
+Prop array shape :  (30000, 2)
+--------------------------------------------------
+
+Prop array shape :  (30000, 2)
+--------------------------------------------------
+
+Prop array shape :  (30000, 2)
+--------------------------------------------------
+
+Prop array shape :  (30000, 2)
+--------------------------------------------------
+
+Prop array shape :  (30000, 2)
+--------------------------------------------------
+
+Dict constructed. Time:176.62
+model epoch 10 loss: 2.225363254547119
+File parsed. Time:104.29
+Get parse file end
+initiating evaluation of detection results ['sleep_result']
+model epoch 10 loss: 2.225363254547119
+File parsed. Time:105.30
+Get parse file end
+Prop array shape :  (30000, 2)
+--------------------------------------------------
+
+Prop array shape :  (30000, 2)
+--------------------------------------------------
+
+Prop array shape :  (30000, 2)
+--------------------------------------------------
+
+Prop array shape :  (30000, 2)
+--------------------------------------------------
+
+Prop array shape :  (30000, 2)
+--------------------------------------------------
+
+Prop array shape :  (30000, 2)
+--------------------------------------------------
+
+Dict constructed. Time:177.40
+initiating evaluation of detection results ['sleep_result']
+model epoch 10 loss: 2.225363254547119
+File parsed. Time:104.72
+Get parse file end
+initiating evaluation of detection results ['sleep_result']
+model epoch 10 loss: 2.225363254547119
+File parsed. Time:107.44
+Get parse file end
+initiating evaluation of detection results ['sleep_result']
+model epoch 10 loss: 2.225363254547119
+File parsed. Time:104.20
+Get parse file end
+Prop array shape :  (30000, 2)
+--------------------------------------------------
+
+Prop array shape :  (30000, 2)
+--------------------------------------------------
+
+Prop array shape :  (30000, 2)
+--------------------------------------------------
+
+Prop array shape :  (30000, 2)
+--------------------------------------------------
+
+Prop array shape :  (30000, 2)
+--------------------------------------------------
+
+Prop array shape :  (30000, 2)
+--------------------------------------------------
+
+Dict constructed. Time:177.33
+initiating evaluation of detection results ['sleep_result']
+model epoch 10 loss: 2.225363254547119
+File parsed. Time:104.82
+Get parse file end
+Prop array shape :  (30000, 2)
+--------------------------------------------------
+
+Prop array shape :  (30000, 2)
+--------------------------------------------------
+
+Prop array shape :  (30000, 2)
+--------------------------------------------------
+
+Prop array shape :  (30000, 2)
+--------------------------------------------------
+
+Prop array shape :  (30000, 2)
+--------------------------------------------------
+
+Prop array shape :  (30000, 2)
+--------------------------------------------------
+
+Dict constructed. Time:166.50
+initiating evaluation of detection results ['sleep_result']
+model epoch 10 loss: 2.225363254547119
+File parsed. Time:108.16
+Get parse file end
+Prop array shape :  (30000, 2)
+--------------------------------------------------
+
+Prop array shape :  (30000, 2)
+--------------------------------------------------
+
+Prop array shape :  (30000, 2)
+--------------------------------------------------
+
+Prop array shape :  (30000, 2)
+--------------------------------------------------
+
+Prop array shape :  (30000, 2)
+--------------------------------------------------
+
+Prop array shape :  (30000, 2)
+--------------------------------------------------
+
+Dict constructed. Time:168.32
+initiating evaluation of detection results ['sleep_result']
+model epoch 10 loss: 2.225363254547119
+File parsed. Time:38.31
+Get parse file end
+Prop array shape :  (10000, 2)
+--------------------------------------------------
+
+Prop array shape :  (10000, 2)
+--------------------------------------------------
+
+Prop array shape :  (10000, 2)
+--------------------------------------------------
+
+Prop array shape :  (10000, 2)
+--------------------------------------------------
+
+Prop array shape :  (10000, 2)
+--------------------------------------------------
+
+Prop array shape :  (10000, 2)
+--------------------------------------------------
+
+Dict constructed. Time:18.84
+get i3d_results
+initiating evaluation of detection results ['sleep_result']
+Merge detection scores from 1 sources...
+Done.
+File parsed. Time:38.05
+Get parse file end
+Prop array shape :  (10000, 2)
+--------------------------------------------------
+
+Prop array shape :  (10000, 2)
+--------------------------------------------------
+
+Prop array shape :  (10000, 2)
+--------------------------------------------------
+
+Prop array shape :  (10000, 2)
+--------------------------------------------------
+
+Prop array shape :  (10000, 2)
+--------------------------------------------------
+
+Prop array shape :  (10000, 2)
+--------------------------------------------------
+
+Dict constructed. Time:19.45
+Preprocessing detections...
+Done.
+Performing nms...
+NMS Done.
+Performing location regression...
+Regression Done.
+Calling mean AP calculator from toolkit with 32 workers...
+model epoch 10 loss: 2.225363254547119
+File parsed. Time:38.96
+Get parse file end
+Prop array shape :  (10000, 2)
+--------------------------------------------------
+
+Prop array shape :  (10000, 2)
+--------------------------------------------------
+
+Prop array shape :  (10000, 2)
+--------------------------------------------------
+
+Prop array shape :  (10000, 2)
+--------------------------------------------------
+
+Prop array shape :  (10000, 2)
+--------------------------------------------------
+
+Prop array shape :  (10000, 2)
+--------------------------------------------------
+
+Dict constructed. Time:18.67
+get i3d_results
+initiating evaluation of detection results ['sleep_result']
+Merge detection scores from 1 sources...
+Done.
+File parsed. Time:39.24
+Get parse file end
+Dict constructed. Time:7.58
+Preprocessing detections...
+Done.
+Performing nms...
+NMS Done.
+Performing location regression...
+Regression Done.
+Calling mean AP calculator from toolkit with 32 workers...
+model epoch 10 loss: 2.225363254547119
+File parsed. Time:39.02
+Get parse file end
+Prop array shape :  (10000, 2)
+--------------------------------------------------
+
+Prop array shape :  (10000, 2)
+--------------------------------------------------
+
+Prop array shape :  (10000, 2)
+--------------------------------------------------
+
+Prop array shape :  (10000, 2)
+--------------------------------------------------
+
+Prop array shape :  (10000, 2)
+--------------------------------------------------
+
+Prop array shape :  (10000, 2)
+--------------------------------------------------
+
+Dict constructed. Time:18.50
+get i3d_results
+initiating evaluation of detection results ['sleep_result']
+Merge detection scores from 1 sources...
+Done.
+File parsed. Time:38.31
+Get parse file end
+Dict constructed. Time:7.41
+Preprocessing detections...
+Done.
+Performing nms...
+NMS Done.
+Performing location regression...
+Regression Done.
+Calling mean AP calculator from toolkit with 32 workers...
+Evaluation done.
+
+
++Detection Performance on sleep+--------+--------+--------+--------+--------+--------+--------+---------+
+| IoU thresh | 0.10   | 0.20   | 0.30   | 0.40   | 0.50   | 0.60   | 0.70   | 0.80   | 0.90   | Average |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+| mean AP    | 0.0663 | 0.0601 | 0.0561 | 0.0424 | 0.0294 | 0.0170 | 0.0087 | 0.0028 | 0.0005 | 0.0315  |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+model epoch 40 loss: 2.160184383392334
+File parsed. Time:11.05
+Get parse file end
+Prop array shape :  (10000, 2)
+--------------------------------------------------
+
+Prop array shape :  (10000, 2)
+--------------------------------------------------
+
+Prop array shape :  (10000, 2)
+--------------------------------------------------
+
+Prop array shape :  (10000, 2)
+--------------------------------------------------
+
+Prop array shape :  (10000, 2)
+--------------------------------------------------
+
+Prop array shape :  (10000, 2)
+--------------------------------------------------
+
+Dict constructed. Time:13.88
+get i3d_results
+initiating evaluation of detection results ['sleep_result']
+model epoch 40 loss: 2.160184383392334
+File parsed. Time:10.52
+Get parse file end
+Prop array shape :  (10000, 2)
+--------------------------------------------------
+
+Prop array shape :  (10000, 2)
+--------------------------------------------------
+
+Prop array shape :  (10000, 2)
+--------------------------------------------------
+
+Prop array shape :  (10000, 2)
+--------------------------------------------------
+
+Prop array shape :  (10000, 2)
+--------------------------------------------------
+
+Prop array shape :  (10000, 2)
+--------------------------------------------------
+
+Dict constructed. Time:103.01
+get i3d_results
+initiating evaluation of detection results ['sleep_result']
+Merge detection scores from 1 sources...
+Done.
+File parsed. Time:10.41
+Get parse file end
+Dict constructed. Time:21.41
+Preprocessing detections...
+Done.
+Performing nms...
+NMS Done.
+Performing location regression...
+Regression Done.
+Calling mean AP calculator from toolkit with 32 workers...
+Evaluation done.
+
+
++Detection Performance on sleep+--------+--------+--------+--------+--------+--------+--------+---------+
+| IoU thresh | 0.10   | 0.20   | 0.30   | 0.40   | 0.50   | 0.60   | 0.70   | 0.80   | 0.90   | Average |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+| mean AP    | 0.0669 | 0.0592 | 0.0551 | 0.0509 | 0.0389 | 0.0130 | 0.0026 | 0.0003 | 0.0001 | 0.0319  |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+model epoch 30 loss: 2.2103824615478516
+File parsed. Time:10.68
+Get parse file end
+Prop array shape :  (10000, 2)
+--------------------------------------------------
+
+Prop array shape :  (10000, 2)
+--------------------------------------------------
+
+Prop array shape :  (10000, 2)
+--------------------------------------------------
+
+Prop array shape :  (10000, 2)
+--------------------------------------------------
+
+Prop array shape :  (10000, 2)
+--------------------------------------------------
+
+Prop array shape :  (10000, 2)
+--------------------------------------------------
+
+Dict constructed. Time:14.37
+get i3d_results
+initiating evaluation of detection results ['sleep_result']
+Merge detection scores from 1 sources...
+Done.
+File parsed. Time:10.63
+Get parse file end
+Dict constructed. Time:21.00
+Preprocessing detections...
+Done.
+Performing nms...
+NMS Done.
+Performing location regression...
+Regression Done.
+Calling mean AP calculator from toolkit with 32 workers...
+Evaluation done.
+
+
++Detection Performance on sleep+--------+--------+--------+--------+--------+--------+--------+---------+
+| IoU thresh | 0.10   | 0.20   | 0.30   | 0.40   | 0.50   | 0.60   | 0.70   | 0.80   | 0.90   | Average |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+
+| mean AP    | 0.0588 | 0.0533 | 0.0490 | 0.0467 | 0.0348 | 0.0148 | 0.0033 | 0.0004 | 0.0001 | 0.0290  |
++------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+---------+

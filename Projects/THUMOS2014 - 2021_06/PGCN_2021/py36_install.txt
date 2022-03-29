@@ -1,0 +1,16 @@
+notebook
+tensorflow
+tensorflow-probability
+tensorboard
+keras
+numpy
+scipy
+matplotlib
+spyder
+pandas
+seaborn
+scikit-learn
+h5py
+pillow
+tqdm
+PyYAML
