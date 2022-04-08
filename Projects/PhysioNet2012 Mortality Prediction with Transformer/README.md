@@ -5,4 +5,5 @@ https://github.com/BorgwardtLab/Set_Functions_for_Time_Series 논문을 구현
 모델 성능 평가 지표 - Accuracy, AUC score
 
 Paper Acc : 83.7 ± 3.5 AUC score : 86.3 ± 0.8
+
 Implemented Acc : 76.7 AUC score : 79.3
