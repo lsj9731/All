@@ -7,4 +7,4 @@ PhysioNet2012 시퀀스 데이터를 활용하여 Transformer & Attention을 통
 
 Paper Acc : 83.7 ± 3.5 AUC score : 86.3 ± 0.8
 
-Implemented Acc : 76.7 AUC score : 79.3
+Implemented Acc : 79.8 AUC score : 83.4
