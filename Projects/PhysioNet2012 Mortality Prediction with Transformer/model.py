@@ -112,8 +112,9 @@ class TransformerModel(tf.keras.Model):
 
         self.to_segments = PaddedToSegments()
         self.aggregation = SegmentAggregation(aggregation_fn)
-        self.drop = tf.keras.layers.Dropout(0.7)
-        self.out_mlp1 = tf.keras.layers.Dense(128, activation = 'relu')
+        self.drop1 = tf.keras.layers.Dropout(0.5)
+        self.drop2 = tf.keras.layers.Dropout(0.2)
+        self.out_mlp1 = tf.keras.layers.Dense(256, activation = 'relu')
         self.out_mlp2 = tf.keras.layers.Dense(1, activation = 'sigmoid')
 
     def _value_transform(self, inputs):
@@ -155,6 +156,7 @@ class TransformerModel(tf.keras.Model):
     def _out_mlp(self, inputs, mlps):
         output_list = []
         for i in range(len(inputs)):
+            # out = mlps(self.drop1(inputs[i]))
             out = mlps(inputs[i])
             output_list.append(out)
 
@@ -190,7 +192,7 @@ class TransformerModel(tf.keras.Model):
         aggregated_values = self.aggregation(collected_values, segment_ids)
 
         output1 = self._out_mlp(aggregated_values, self.out_mlp1)
-        out_drop = self.drop(output1)
+        out_drop = self.drop2(output1)
         output = self.out_mlp2(out_drop)
         
         return output

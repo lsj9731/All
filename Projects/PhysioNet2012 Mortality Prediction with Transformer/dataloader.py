@@ -55,6 +55,9 @@ class Dataloader(Sequence):
             'RespRate', 'SaO2', 'SysABP', 'Temp', 'TroponinI', 'TroponinT',
             'Urine', 'WBC', 'pH'
         ]
+        demo_mean = [-3.17584655e-19,  2.58169859e-15, -6.73279470e-16,  6.93446095e-16, -4.29281825e-16, -2.98503111e-16,  1.52655004e-15, -9.80211806e-16]
+        demo_std = [1., 1., 1., 1., 1., 1., 1., 1.]
+        ts_mean, ts_std = np.load('ts_mean.npy'), np.load('ts_std.npy')
 
         # preprocessing to demo, time, value, value onehot, time length feafures
         # demographics
@@ -77,16 +80,11 @@ class Dataloader(Sequence):
             icu = np.zeros((4))
             icu[int(demo_info[3][2])-1] = 1
             demo.extend(icu)
-
-            demo = np.array(demo)
-
-            demo_mean = np.mean(demo, axis=0)
-            demo_std = np.std(demo, axis=0)
-            demo = (demo - demo_mean) / demo_std
-
             total_demo.append(demo)
         
+        # normalization
         total_demo = np.array(total_demo)
+        total_demo = (total_demo - demo_mean) / demo_std
 
         # generate dataframe
         total_values, total_times = [], []
@@ -114,16 +112,14 @@ class Dataloader(Sequence):
             value = time_series[ts_features]
             value = value.fillna(0)
             value = value.to_numpy()
-
-            value_mean = np.mean(value, axis=0)
-            value_std = np.std(demo, axis=0)
-            value = (value - value_mean) / value_std
             value_mask = tf.sequence_mask(value)[:, :, 0]
 
             value_modality_embedding = tf.concat((
                     value,
                     tf.cast(value_mask, tf.float32)
                 ), axis=-1)
+
+            value_modality_embedding = (value_modality_embedding - ts_mean) / ts_std
 
             total_values.append(value_modality_embedding)
 
@@ -168,35 +164,35 @@ class Dataloader(Sequence):
         return math.ceil(len(self.x) / self.batch_size)
 
     def __getitem__(self, idx):
-        if self.mode == 'Training':
-            s = np.arange(len(self.x))
-            np.random.shuffle(s)
+        # if self.mode == 'Training':
+        #     s = np.arange(len(self.x))
+        #     np.random.shuffle(s)
 
-            shuffled_x, shuffled_y = [], []
+        #     shuffled_x, shuffled_y = [], []
 
-            for i in s:
-                shuffled_x.append(self.x[i])
-                shuffled_y.append(self.y[i])
+        #     for i in s:
+        #         shuffled_x.append(self.x[i])
+        #         shuffled_y.append(self.y[i])
             
-            batch_x, batch_y = self._data_sampling(shuffled_x, shuffled_y)
+        #     batch_x, batch_y = self._data_sampling(shuffled_x, shuffled_y)
 
-            ss = np.arange(self.batch_size)
-            np.random.shuffle(ss)
+        #     ss = np.arange(self.batch_size)
+        #     np.random.shuffle(ss)
 
-            return_a, return_b = [], []
+        #     return_a, return_b = [], []
 
-            for ii in ss:
-                return_a.append(batch_x[ii])
-                return_b.append(batch_y[ii])
+        #     for ii in ss:
+        #         return_a.append(batch_x[ii])
+        #         return_b.append(batch_y[ii])
 
-            p_batch_x, p_batch_y = self.preprocessing(return_a, return_b)
-        else:
-            self.indices = np.arange(len(self.x))
-            indices = self.indices[idx*self.batch_size:(idx+1)*self.batch_size]
+        #     p_batch_x, p_batch_y = self.preprocessing(return_a, return_b)
+        # else:
+        self.indices = np.arange(len(self.x))
+        indices = self.indices[idx*self.batch_size:(idx+1)*self.batch_size]
 
-            batch_x = [self.x[i] for i in indices]
-            batch_y = [self.y[i] for i in indices]
+        batch_x = [self.x[i] for i in indices]
+        batch_y = [self.y[i] for i in indices]
 
-            p_batch_x, p_batch_y = self.preprocessing(batch_x, batch_y)
+        p_batch_x, p_batch_y = self.preprocessing(batch_x, batch_y)
 
         return p_batch_x, np.array(p_batch_y).reshape(-1, 1)

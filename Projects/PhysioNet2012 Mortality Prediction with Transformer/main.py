@@ -122,9 +122,9 @@ def train_step(model, loss_object, optimizer, datas, labels, train_loss, train_a
         # training=True is only needed if there are layers with different
         # behavior during training versus inference (e.g. Dropout).
         predictions = model(datas, training=True)
-        loss = loss_object(labels, predictions)
-        # get_class_weights = _class_weights(labels)
-        # loss = loss_object(labels, predictions, sample_weight=get_class_weights)
+        # loss = loss_object(labels, predictions)
+        get_class_weights = _class_weights(labels)
+        loss = loss_object(labels, predictions, sample_weight=get_class_weights)
     gradients = tape.gradient(loss, model.trainable_variables)
     optimizer.apply_gradients(zip(gradients, model.trainable_variables))
 
@@ -136,8 +136,6 @@ def test_step(model, loss_object, datas, labels, test_loss, test_accuracy):
     # behavior during training versus inference (e.g. Dropout).
     predictions = model(datas, training=False)
     t_loss = loss_object(labels, predictions)
-    # get_class_weights = _class_weights(labels)
-    # t_loss = loss_object(labels, predictions, sample_weight_mode=get_class_weights)
 
     test_loss(t_loss)
     test_accuracy(labels, predictions)
@@ -146,12 +144,6 @@ def _class_weights(labels):
     cw = compute_sample_weight(class_weight = "balanced" , y = labels)
 
     return cw
-
-def get_steps(x_size, batch_size):
-    if x_size / batch_size == 0:
-        return x_size // batch_size
-    else:
-        return x_size // batch_size + 1
 
 if __name__ == "__main__":
     main()
