@@ -1,0 +1,2 @@
+model_checkpoint_path: "Model_Best_Checkpoint_14_epochs"
+all_model_checkpoint_paths: "Model_Best_Checkpoint_14_epochs"
