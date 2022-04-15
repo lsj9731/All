@@ -13,3 +13,9 @@ Implemented Acc : 79.8 AUC score : 83.4
 
 -------------------------------------------
 Get test result -> python test.py --checkpoint early_stop/14epochs/Model_Best_Checkpoint_14_epochs
+
+
+수정이 필요한 사항
+
+1. 그래프 형태의 Input 동적 변환
+2. num heads, model dimension / num heads의 자동화 수정 (현재 4, 32의 고정된 값으로 사용되고있음)
