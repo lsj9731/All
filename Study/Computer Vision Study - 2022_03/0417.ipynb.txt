@@ -1,0 +1,327 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "0417",
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    },
+    "accelerator": "GPU"
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "id": "hCILEJN2RDeL"
+      },
+      "outputs": [],
+      "source": [
+        "import tensorflow as tf\n",
+        "import numpy as np\n",
+        "import pandas as pd"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "model = tf.keras.applications.VGG16(weights='imagenet', include_top=False, input_shape=(224, 224, 3))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "YiNxuYZe5-43",
+        "outputId": "e44d2ece-06de-4a81-f941-75a50998c1b3"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Downloading data from https://storage.googleapis.com/tensorflow/keras-applications/vgg16/vgg16_weights_tf_dim_ordering_tf_kernels_notop.h5\n",
+            "58892288/58889256 [==============================] - 1s 0us/step\n",
+            "58900480/58889256 [==============================] - 1s 0us/step\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "model.summary()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ONEWaRoc8YNx",
+        "outputId": "f25a22c9-c18a-4207-af9c-9f7070f0c934"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Model: \"vgg16\"\n",
+            "_________________________________________________________________\n",
+            " Layer (type)                Output Shape              Param #   \n",
+            "=================================================================\n",
+            " input_1 (InputLayer)        [(None, 224, 224, 3)]     0         \n",
+            "                                                                 \n",
+            " block1_conv1 (Conv2D)       (None, 224, 224, 64)      1792      \n",
+            "                                                                 \n",
+            " block1_conv2 (Conv2D)       (None, 224, 224, 64)      36928     \n",
+            "                                                                 \n",
+            " block1_pool (MaxPooling2D)  (None, 112, 112, 64)      0         \n",
+            "                                                                 \n",
+            " block2_conv1 (Conv2D)       (None, 112, 112, 128)     73856     \n",
+            "                                                                 \n",
+            " block2_conv2 (Conv2D)       (None, 112, 112, 128)     147584    \n",
+            "                                                                 \n",
+            " block2_pool (MaxPooling2D)  (None, 56, 56, 128)       0         \n",
+            "                                                                 \n",
+            " block3_conv1 (Conv2D)       (None, 56, 56, 256)       295168    \n",
+            "                                                                 \n",
+            " block3_conv2 (Conv2D)       (None, 56, 56, 256)       590080    \n",
+            "                                                                 \n",
+            " block3_conv3 (Conv2D)       (None, 56, 56, 256)       590080    \n",
+            "                                                                 \n",
+            " block3_pool (MaxPooling2D)  (None, 28, 28, 256)       0         \n",
+            "                                                                 \n",
+            " block4_conv1 (Conv2D)       (None, 28, 28, 512)       1180160   \n",
+            "                                                                 \n",
+            " block4_conv2 (Conv2D)       (None, 28, 28, 512)       2359808   \n",
+            "                                                                 \n",
+            " block4_conv3 (Conv2D)       (None, 28, 28, 512)       2359808   \n",
+            "                                                                 \n",
+            " block4_pool (MaxPooling2D)  (None, 14, 14, 512)       0         \n",
+            "                                                                 \n",
+            " block5_conv1 (Conv2D)       (None, 14, 14, 512)       2359808   \n",
+            "                                                                 \n",
+            " block5_conv2 (Conv2D)       (None, 14, 14, 512)       2359808   \n",
+            "                                                                 \n",
+            " block5_conv3 (Conv2D)       (None, 14, 14, 512)       2359808   \n",
+            "                                                                 \n",
+            " block5_pool (MaxPooling2D)  (None, 7, 7, 512)         0         \n",
+            "                                                                 \n",
+            "=================================================================\n",
+            "Total params: 14,714,688\n",
+            "Trainable params: 14,714,688\n",
+            "Non-trainable params: 0\n",
+            "_________________________________________________________________\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for layer in model.layers:\n",
+        "  layer.trainable = False"
+      ],
+      "metadata": {
+        "id": "ErIJgifP8Z6R"
+      },
+      "execution_count": 4,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Imagenet을 통해 사전학습된 layer의 가중치를 고정한다"
+      ],
+      "metadata": {
+        "id": "7bu1BDm08wRi"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "model.summary()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ZAvWiRbq8o95",
+        "outputId": "35a4bf4a-c7e1-481e-bcd9-2f5f003c8cb2"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Model: \"vgg16\"\n",
+            "_________________________________________________________________\n",
+            " Layer (type)                Output Shape              Param #   \n",
+            "=================================================================\n",
+            " input_1 (InputLayer)        [(None, 224, 224, 3)]     0         \n",
+            "                                                                 \n",
+            " block1_conv1 (Conv2D)       (None, 224, 224, 64)      1792      \n",
+            "                                                                 \n",
+            " block1_conv2 (Conv2D)       (None, 224, 224, 64)      36928     \n",
+            "                                                                 \n",
+            " block1_pool (MaxPooling2D)  (None, 112, 112, 64)      0         \n",
+            "                                                                 \n",
+            " block2_conv1 (Conv2D)       (None, 112, 112, 128)     73856     \n",
+            "                                                                 \n",
+            " block2_conv2 (Conv2D)       (None, 112, 112, 128)     147584    \n",
+            "                                                                 \n",
+            " block2_pool (MaxPooling2D)  (None, 56, 56, 128)       0         \n",
+            "                                                                 \n",
+            " block3_conv1 (Conv2D)       (None, 56, 56, 256)       295168    \n",
+            "                                                                 \n",
+            " block3_conv2 (Conv2D)       (None, 56, 56, 256)       590080    \n",
+            "                                                                 \n",
+            " block3_conv3 (Conv2D)       (None, 56, 56, 256)       590080    \n",
+            "                                                                 \n",
+            " block3_pool (MaxPooling2D)  (None, 28, 28, 256)       0         \n",
+            "                                                                 \n",
+            " block4_conv1 (Conv2D)       (None, 28, 28, 512)       1180160   \n",
+            "                                                                 \n",
+            " block4_conv2 (Conv2D)       (None, 28, 28, 512)       2359808   \n",
+            "                                                                 \n",
+            " block4_conv3 (Conv2D)       (None, 28, 28, 512)       2359808   \n",
+            "                                                                 \n",
+            " block4_pool (MaxPooling2D)  (None, 14, 14, 512)       0         \n",
+            "                                                                 \n",
+            " block5_conv1 (Conv2D)       (None, 14, 14, 512)       2359808   \n",
+            "                                                                 \n",
+            " block5_conv2 (Conv2D)       (None, 14, 14, 512)       2359808   \n",
+            "                                                                 \n",
+            " block5_conv3 (Conv2D)       (None, 14, 14, 512)       2359808   \n",
+            "                                                                 \n",
+            " block5_pool (MaxPooling2D)  (None, 7, 7, 512)         0         \n",
+            "                                                                 \n",
+            "=================================================================\n",
+            "Total params: 14,714,688\n",
+            "Trainable params: 0\n",
+            "Non-trainable params: 14,714,688\n",
+            "_________________________________________________________________\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "last_layer = model.get_layer('block5_pool').output"
+      ],
+      "metadata": {
+        "id": "t7lxROso8qnQ"
+      },
+      "execution_count": 7,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "out = tf.keras.layers.Flatten()(last_layer)\n",
+        "out = tf.keras.layers.Dense(2)(out)\n",
+        "\n",
+        "model = tf.keras.models.Model(model.input, out)\n",
+        "model.summary()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "FCVxfKSu8-10",
+        "outputId": "406d89e6-78cc-4697-93b2-6f3c34318a23"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Model: \"model_1\"\n",
+            "_________________________________________________________________\n",
+            " Layer (type)                Output Shape              Param #   \n",
+            "=================================================================\n",
+            " input_1 (InputLayer)        [(None, 224, 224, 3)]     0         \n",
+            "                                                                 \n",
+            " block1_conv1 (Conv2D)       (None, 224, 224, 64)      1792      \n",
+            "                                                                 \n",
+            " block1_conv2 (Conv2D)       (None, 224, 224, 64)      36928     \n",
+            "                                                                 \n",
+            " block1_pool (MaxPooling2D)  (None, 112, 112, 64)      0         \n",
+            "                                                                 \n",
+            " block2_conv1 (Conv2D)       (None, 112, 112, 128)     73856     \n",
+            "                                                                 \n",
+            " block2_conv2 (Conv2D)       (None, 112, 112, 128)     147584    \n",
+            "                                                                 \n",
+            " block2_pool (MaxPooling2D)  (None, 56, 56, 128)       0         \n",
+            "                                                                 \n",
+            " block3_conv1 (Conv2D)       (None, 56, 56, 256)       295168    \n",
+            "                                                                 \n",
+            " block3_conv2 (Conv2D)       (None, 56, 56, 256)       590080    \n",
+            "                                                                 \n",
+            " block3_conv3 (Conv2D)       (None, 56, 56, 256)       590080    \n",
+            "                                                                 \n",
+            " block3_pool (MaxPooling2D)  (None, 28, 28, 256)       0         \n",
+            "                                                                 \n",
+            " block4_conv1 (Conv2D)       (None, 28, 28, 512)       1180160   \n",
+            "                                                                 \n",
+            " block4_conv2 (Conv2D)       (None, 28, 28, 512)       2359808   \n",
+            "                                                                 \n",
+            " block4_conv3 (Conv2D)       (None, 28, 28, 512)       2359808   \n",
+            "                                                                 \n",
+            " block4_pool (MaxPooling2D)  (None, 14, 14, 512)       0         \n",
+            "                                                                 \n",
+            " block5_conv1 (Conv2D)       (None, 14, 14, 512)       2359808   \n",
+            "                                                                 \n",
+            " block5_conv2 (Conv2D)       (None, 14, 14, 512)       2359808   \n",
+            "                                                                 \n",
+            " block5_conv3 (Conv2D)       (None, 14, 14, 512)       2359808   \n",
+            "                                                                 \n",
+            " block5_pool (MaxPooling2D)  (None, 7, 7, 512)         0         \n",
+            "                                                                 \n",
+            " flatten_1 (Flatten)         (None, 25088)             0         \n",
+            "                                                                 \n",
+            " dense_1 (Dense)             (None, 2)                 50178     \n",
+            "                                                                 \n",
+            "=================================================================\n",
+            "Total params: 14,764,866\n",
+            "Trainable params: 50,178\n",
+            "Non-trainable params: 14,714,688\n",
+            "_________________________________________________________________\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "3ZLZzUWg9Z9a"
+      },
+      "execution_count": 10,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "yHO0IlSADnUn"
+      },
+      "execution_count": 9,
+      "outputs": []
+    }
+  ]
+}
